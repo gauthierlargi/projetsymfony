@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} Accueil - {{ parent() }} {% endblock %}
+
+{% block body %}
+<header>
+
+    <h1>MovieLib</h1>
+
+    <a href="#">nos film</a>
+
+</header>
+
+<main>
+
+    <h3>bienvenue chez MovieLib</h3>
+    {{ form_start(form) }}
+        
+
+        {{ form_row(form.title) }}
+        {{ form_row(form.realise_date) }}
+        {{ form_row(form.duration) }}
+        {{ form_row(form.picture)}}
+        {{ form_row(form.type) }}
+        {{ form_row(form.actor) }}
+        {{ form_row(form.producer) }}
+     <input type="submit" value="valider">
+        
+    {{ form_end(form) }}
+</main>
+
+{% endblock %}

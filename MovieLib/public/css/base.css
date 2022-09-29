@@ -1,0 +1,23 @@
+/* header */
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(146, 62, 58);
+    color: white;
+}
+/* main */
+
+
+
+
+/* footer */
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 40px;
+    background: rgb(72, 72, 72);
+    color: white;
+    text-align: center;
+}
